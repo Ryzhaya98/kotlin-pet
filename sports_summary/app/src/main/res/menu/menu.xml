@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/season_one"
+       android:title="2018-2019"
+        android:icon="@drawable/ic_baseline_emoji_events_24">
+
+    </item>
+    <item android:id="@+id/season_two"
+        android:title="2019-2020"
+        android:icon="@drawable/ic_baseline_emoji_events_24">
+
+    </item>
+    <item android:id="@+id/season_three"
+        android:title="2020-2021"
+        android:icon="@drawable/ic_baseline_emoji_events_24">
+
+    </item>
+    <item android:id="@+id/game"
+        android:title="TEST"
+        android:icon="@drawable/ic_baseline_emoji_events_24">
+
+    </item>
+</menu>
