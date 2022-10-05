@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">journal_test_task</string>
+    <string name="fragment_1">Журнал</string>
+    <string name="fragment_2">Статьи</string>
+    <string name="fragment_3">Профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

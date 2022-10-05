@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ArticleFragment"
+    android:id="@+id/f2"
+    android:background="@color/back">
+
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recycler_view"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/tv2"
+       android:scrollbars="vertical"
+       tools:listitem="@layout/item_article" />
+
+   <TextView
+       android:id="@+id/tv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="20dp"
+       android:fontFamily="@font/s"
+       android:gravity="center"
+       android:text="КНИГА\nСТИЛЯ"
+       android:textColor="@color/pink"
+       android:textSize="45dp" />
+
+   <TextView
+       android:id="@+id/tv2"
+       android:layout_below = "@+id/tv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="ПОЛЛИ РЫЖОВОЙ"
+       android:textSize="15dp"
+       android:fontFamily="@font/font"
+       android:textColor="@color/black"
+       android:gravity="center"
+       />
+
+</RelativeLayout>
