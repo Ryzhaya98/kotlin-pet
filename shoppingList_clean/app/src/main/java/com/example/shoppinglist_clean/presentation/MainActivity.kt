@@ -24,6 +24,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        button_add_shop_item.setOnClickListener {
+            val intent = ShopItemActivity.newIntentAddItem(this)
+            startActivity(intent)
+        }
+
     }
 
     private fun setupRV() {
@@ -39,6 +44,8 @@ class MainActivity : AppCompatActivity() {
         }
         shopListAdapter.onShopItemShortClick = {
             Log.d("setOnClickListener", "onShopItemShortClick")
+            val intent = ShopItemActivity.newIntentEditItem(this, it.id)
+            startActivity(intent)
         }
         val callBack = object : ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
             override fun onMove(
